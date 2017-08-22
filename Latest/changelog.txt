@@ -1,0 +1,84 @@
+Description: Primative Evolution is a mod that tweaks the recipes for basic tools and other items to provide a more challenging
+experience, using natural resources from grass. It is primarily used for my custom modpack based on ATM.
+
+NOTE: versions are simplified to: 0.0.0XX (only the Xs)
+T = sub test version, may add temporary items, features, etc.
+X = corrupted!
+*backup only version (non-release)
++official jar release only (no backup)
+
+pre-alpha: (tested before usage in pack, creating crucial components): 0.0.001 to 0.0.017
+	*1: 
+	*2: 
+	*3: 
+	*4: 
+	*10: 
+	*11: 
+	*12: 
+	*13: 
+	*14: 
+	*15: 
+	*16: 
+	*17: 
+alpha: (tested in pack, adding features along the way): 0.0.020 to 
+--sometime in this stage,(stone plate) recipes were no longer added to prevent mod crashing if they were to be changed, so they can only be added by minetweker for now on
+	+18: first released version as a finalized jar file
+version 20s: 
+	+20: 
+	+21: 
+	22: 
+	+23: 
+	+24: 
+	+25: 
+	*T25: 
+	+X26: 
+	27: 
+	+28: 
+	+29: 
+version 30s: new ideas, lots of new additions
+	*30: 
+	+31: 
+	32: 
+	*33: 
+   --Information on changes from here and past are a little fuzzy since it hasn't been documented then
+	+34: armor durability tweaks
+	+35: switched names of weak binding and basic binding
+	36: added renforced file and hammer, as well as 2x versions of them
+	+37: added stone mortar and pestle, along with reinforced stone coarse dust to be crafted with stone mortar and pestle
+	+38: added stone bowl and stone pestle components for Stone mortar and pestle
+	+39: added renforced stone saw, sword, axe, hoe, and shovel, changed durability of pickaxe to 198, and applying that to all tools (crafting tools will be 100, so 2x versions will be crafted, so renforced stone saw 2x version is added)
+version 40s: mod cleanup, basic tweaks and utilizing for pack, phase 1: removing old components
+	+40: nerfed all new tool attack damages to normal, added x6 renforced hammer
+	axe: 8, sword: 3, shovel:2 or 1, hoe: 0? (change attack speeds if possible) 
+	41: still some modifications on pickaxe number - 1: , and sword: 1
+	*42: removed renforced stone tools (including stacked types), stone saw x2
+	*43: corrected spelling of "reinforced" for block, dust, and plate
+	*44: removed stone armor, stone saw, stone hammer x6
+	*45: removed alternate stone tool recipes
+	*46: removed stone crafting tools
+	*47: removed wooden handle, stick armor, alternate wooden sword recipe, stone plate (recipe issue), coarse stone dust (recipe issue)
+	*48: removed wooden hammer x6, wooden hoe alternate recipe, alternate cobble recipe,  and mortar and pestle (including stacked types)
+	*49: removed wooden grass pickaxe, mortar and pestle, wooden hammer, rock blade
+version 50s: utilizing tweaks phase 2: add in replacement items/tools for crafting, removing some items
+	*50: added stick pickaxe (renamed from grass pickaxe), stone plate, wooden handle, coarse stone dust (non-crafting tools)
+	+51: added rockblade as a special tool, version released to be tested in pack
+	+52: rockblade texture fixed, does slight damage, code now RockBladeR, Stone file is StoneFileRR, MandP is WoodenMandP
+	+53: all crafting tools are added
+	54: all crafting tools durabilities increased by one pt, renforced stone hoe type changed to hoe instead of pickaxe, rock blade attack damage increased form 0.5 to 1 heart
+	55: add slimy binding, change waterbowl into tool
+	56: fixed updated waterbowl missing texture
+	+57: increase rock generation (8 to 12), remove stone bowl
+	58: added compressed stick, change hammers to sword types, changed stone crafting tools to 50 durability, removed wooden plate, increase grass plant drops (2 to 3) and bonemeal prob. by a lot (10 to 50), increased stone m and p durability (40 to 65), wooden m and p (16 to 20)
+	+59: removed string morsel, added renforced blade
+version 60s: metal tier items added!
+	60: added copper hammer, file, and same...
+
+"new" [pre] alpha: continued development of mod from scratch, fully implementing everything from ablove, but by raw coding instead of MCcreator (since it is now for 1.12, and MCcreator isnt avalible for that version)
+
+versions are now 0.1.XXX; the 1 indicates the real coded version for 1.12 exclusively, in pre-alpha atm
+
+000: getting general idea of coding again, mod is not stable atm but will be fixed soon
+001: mod is stable, but the item seems to have some registry issues and does not show up in creative tabs, give command, etc.
+002: removed minecraft.[...] command and used modloader instead for item init
+003: added a new creative tab for the item, no such luck still with finding the item
+004: changed tab to "redstone" type, no such luck still, registry must still be corrupted
